@@ -113,4 +113,4 @@ The browser collector relies on TP-Link's internal JavaScript `connectedClientsS
 
 If this project is useful, buy me a coffee! ☕
 
-[**Support Rattan Candy on PayPal**](https://www.paypal.me/firdausaziz)
+[**Support Rattan Candy on PayPal**](https://www.paypal.com/ncp/payment/BJW38XK6LZWUQ)
