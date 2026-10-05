@@ -4,6 +4,7 @@
 ![NetBox](https://img.shields.io/badge/NetBox-IPAM-2463AB)
 ![Safety](https://img.shields.io/badge/default-dry--run-orange)
 ![Status](https://img.shields.io/badge/status-experimental-yellow)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 **Discover devices connected to a TP-Link Archer AX73 router and reconcile its DHCP-authoritative address pool with NetBox.**
 
@@ -106,4 +107,4 @@ Templates are included in `systemd/`. Adjust service account, installation direc
 
 ## Limitations and provenance
 
-The browser collector relies on TP-Link's internal JavaScript `connectedClientsStore`, which is undocumented and firmware-dependent. This project originated from a personal home-lab implementation and is provided **as-is**, without affiliation or vendor support. The **copyright holder has not selected an open-source license yet**; public visibility alone does not grant permission to redistribute or modify.
+The browser collector relies on TP-Link's internal JavaScript `connectedClientsStore`, which is undocumented and firmware-dependent. This project originated from a personal home-lab implementation and is provided **as-is**, without affiliation or vendor support. The original project code and documentation are released under the [MIT License](LICENSE), Copyright (c) 2026 Firdaus Aziz. Preserve the copyright and license notice when reusing or redistributing it. Third-party projects (including Playwright, NetBox, and TP-Link firmware) retain their respective licenses and rights.
