@@ -1,0 +1,16 @@
+[Unit]
+Description=AX73 discovery and NetBox IPAM synchronization
+After=network-online.target docker.service
+Wants=network-online.target
+Requires=docker.service
+
+[Service]
+Type=oneshot
+# Replace with your own dedicated account with required local access.
+User=replace-with-your-service-user
+WorkingDirectory=/srv/ax73-netbox-sync
+EnvironmentFile=/srv/ax73-netbox-sync/.env
+ExecStart=/usr/bin/bash /srv/ax73-netbox-sync/ax73_cycle.sh
+TimeoutStartSec=180
+StandardOutput=journal
+StandardError=journal
