@@ -108,3 +108,9 @@ Templates are included in `systemd/`. Adjust service account, installation direc
 ## Limitations and provenance
 
 The browser collector relies on TP-Link's internal JavaScript `connectedClientsStore`, which is undocumented and firmware-dependent. This project originated from a personal home-lab implementation and is provided **as-is**, without affiliation or vendor support. The original project code and documentation are released under the [MIT License](LICENSE), Copyright (c) 2026 Rattan Candy. Preserve the copyright and license notice when reusing or redistributing it. Third-party projects (including Playwright, NetBox, and TP-Link firmware) retain their respective licenses and rights.
+
+## ☕ Support Rattan Candy
+
+If this project is useful, buy me a coffee! ☕
+
+[**Support Rattan Candy on PayPal**](https://www.paypal.me/firdausaziz)
